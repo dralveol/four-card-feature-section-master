@@ -1,0 +1,63 @@
+:root {
+	--Red: hsl(0, 78%, 62%);
+	--Cyan: hsl(180, 62%, 55%);
+	--Orange: hsl(34, 97%, 64%);
+	--Blue: hsl(212, 86%, 64%);
+	--very-dark-blue: hsl(234, 12%, 34%);
+	--Grayish-blue: hsl(229, 6%, 66%);
+	--Very-light-gray: hsl(0, 0%, 98%);
+}
+
+html {
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 15px;
+	font-family: "Poppins", sans-serif;
+	background-color: var(--Very-light-gray);
+}
+
+/* Styling the header*/
+.container header {
+	margin: auto;
+	text-align: center;
+	max-width: 525px;
+}
+
+.container>header>h3 {font-weight: 400;}
+.container>header>h1 {font-weight: 600;}
+.container>header>p {font-weight: 200;}
+.container>header>*{margin:0;}
+
+
+/* Styling the frame */
+.frame{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+
+}
+
+/* Styling cards */
+.card {
+	max-width: 350px;
+	height: 250px;
+	border-radius: 10px;
+	box-shadow: 0 5px 5px gray;
+	padding: 30px;
+	position: relative;
+	margin: 30px;
+}
+.card img{
+	position:absolute;
+	bottom: 30px;
+	right: 30px;
+}
+
+.superv{border-top : 5px solid var(--Cyan);}
+.tb {border-top : 5px solid var(--Red);}
+.karma {border-top : 5px solid var(--Orange);}
+.calc {border-top : 5px solid var(--Blue);}
+
