@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Repository](https://github.com/dralveol/four-card-feature-section-master)
-- Live Site URL: [Live site](https://dralveol.io/four-card-feature-section-master)
+- Live Site URL: [Live site](https://dralveol.github.io/four-card-feature-section-master/)
 
 ## My process
 
